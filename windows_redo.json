@@ -1,0 +1,45 @@
+{
+    "description": "Windows Redo",
+    "manipulators": [
+        {
+            "from": {
+                "key_code": "z",
+                "modifiers": {
+                    "mandatory": [
+                        "control",
+                        "shift"
+                    ],
+                    "optional": [
+                        "caps_lock"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "z",
+                    "modifiers": [
+                        "command",
+                        "shift"
+                    ]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "z",
+                "modifiers": {
+                    "mandatory": [
+                        "command",
+                        "shift"
+                    ],
+                    "optional": [
+                        "caps_lock"
+                    ]
+                }
+            },
+            "to": [],
+            "type": "basic"
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "description": "Windows Close Tab",
+    "manipulators": [
+        {
+            "from": {
+                "key_code": "w",
+                "modifiers": {
+                    "mandatory": [
+                        "control"
+                    ],
+                    "optional": [
+                        "caps_lock"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "w",
+                    "modifiers": [
+                        "command"
+                    ]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "w",
+                "modifiers": {
+                    "mandatory": [
+                        "command"
+                    ],
+                    "optional": [
+                        "caps_lock"
+                    ]
+                }
+            },
+            "to": [],
+            "type": "basic"
+        }
+    ]
+}

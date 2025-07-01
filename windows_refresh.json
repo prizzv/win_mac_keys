@@ -1,0 +1,42 @@
+{
+    "description": "Windows Refresh",
+    "manipulators": [
+        {
+            "from": {
+                "key_code": "r",
+                "modifiers": {
+                    "mandatory": [
+                        "control"
+                    ],
+                    "optional": [
+                        "caps_lock"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "r",
+                    "modifiers": [
+                        "command"
+                    ]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "r",
+                "modifiers": {
+                    "mandatory": [
+                        "command"
+                    ],
+                    "optional": [
+                        "caps_lock"
+                    ]
+                }
+            },
+            "to": [],
+            "type": "basic"
+        }
+    ]
+}

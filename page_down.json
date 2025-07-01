@@ -1,0 +1,22 @@
+{
+    "description": "Page Down",
+    "manipulators": [
+        {
+            "from": {
+                "key_code": "down_arrow",
+                "modifiers": {
+                    "mandatory": [
+                        "option"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "page_down",
+                    "modifiers": []
+                }
+            ],
+            "type": "basic"
+        }
+    ]
+}

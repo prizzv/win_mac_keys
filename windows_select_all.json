@@ -1,0 +1,42 @@
+{
+    "description": "Windows select all",
+    "manipulators": [
+        {
+            "from": {
+                "key_code": "a",
+                "modifiers": {
+                    "mandatory": [
+                        "control"
+                    ],
+                    "optional": [
+                        "caps_lock"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "a",
+                    "modifiers": [
+                        "command"
+                    ]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "a",
+                "modifiers": {
+                    "mandatory": [
+                        "command"
+                    ],
+                    "optional": [
+                        "caps_lock"
+                    ]
+                }
+            },
+            "to": [],
+            "type": "basic"
+        }
+    ]
+}

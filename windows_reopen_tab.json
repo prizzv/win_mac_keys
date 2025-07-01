@@ -1,0 +1,45 @@
+{
+    "description": "Windows Reopen Tab",
+    "manipulators": [
+        {
+            "from": {
+                "key_code": "t",
+                "modifiers": {
+                    "mandatory": [
+                        "left_control",
+                        "left_shift"
+                    ],
+                    "optional": [
+                        "caps_lock"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "t",
+                    "modifiers": [
+                        "left_command",
+                        "left_shift"
+                    ]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "t",
+                "modifiers": {
+                    "mandatory": [
+                        "left_command",
+                        "left_shift"
+                    ],
+                    "optional": [
+                        "caps_lock"
+                    ]
+                }
+            },
+            "to": [],
+            "type": "basic"
+        }
+    ]
+}

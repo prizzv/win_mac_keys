@@ -1,0 +1,28 @@
+{
+    "description": "Terminal Copy",
+    "manipulators": [
+        {
+            "from": {
+                "key_code": "c",
+                "modifiers": {
+                    "mandatory": [
+                        "left_shift",
+                        "left_control"
+                    ],
+                    "optional": [
+                        "caps_lock"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "c",
+                    "modifiers": [
+                        "command"
+                    ]
+                }
+            ],
+            "type": "basic"
+        }
+    ]
+}

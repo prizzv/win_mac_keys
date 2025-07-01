@@ -1,0 +1,44 @@
+{
+    "description": "Windows Emoji Board",
+    "manipulators": [
+        {
+            "from": {
+                "key_code": "period",
+                "modifiers": {
+                    "mandatory": [
+                        "left_command"
+                    ],
+                    "optional": [
+                        "caps_lock"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "spacebar",
+                    "modifiers": [
+                        "left_control",
+                        "left_command"
+                    ]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "spacebar",
+                "modifiers": {
+                    "mandatory": [
+                        "left_control",
+                        "left_command"
+                    ],
+                    "optional": [
+                        "caps_lock"
+                    ]
+                }
+            },
+            "to": [],
+            "type": "basic"
+        }
+    ]
+}
